@@ -73,8 +73,8 @@ export default function Sidebar() {
                                 key={href}
                                 href={href}
                                 className={`flex items-center justify-between px-4 py-3 rounded-md transition-all ${isActive
-                                    ? 'bg-blue-600 text-white font-semibold'
-                                    : 'hover:bg-gray-800 text-gray-300'
+                                    ? 'bg-gray-600 text-white font-semibold'
+                                    : 'hover:bg-gray-500 text-gray-300'
                                     }`}
                             >
                                 <div className="flex items-center gap-3">

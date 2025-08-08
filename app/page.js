@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image'
-import A from '../public/images/productaa.jpg'
+import A from '../public/images/img-bg.jpg'
 import NewData from './services/page'
 
 export default function Home() {

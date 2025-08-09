@@ -27,7 +27,7 @@ export default function MobileMenu({ open, setOpen }) {
 
             {/* Profile */}
             <div className="flex flex-col items-center space-y-2 mb-6">
-                <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-gray-800">
+                <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-gray-600">
                     <Image src={profile} alt="Profile" className="object-cover" />
                 </div>
                 <h2 className="text-xl font-semibold mt-2 uppercase">Fasal San</h2>
@@ -46,7 +46,7 @@ export default function MobileMenu({ open, setOpen }) {
                             href={url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="bg-gray-800 p-2 rounded-full hover:bg-gray-700"
+                            className="bg-gray-600 p-2 rounded-full hover:bg-gray-700"
                         >
                             <Icon className="w-4 h-4" />
                         </a>

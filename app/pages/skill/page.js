@@ -55,10 +55,10 @@ export default function Skill() {
 
     return (
         <div className='p-4'>
-            <div ref={sectionRef} >
-                <h2 className="text-3xl font-bold mb-4 relative inline-block border-b-4 border-blue-500 pb-1">
-                    Skills
-                </h2>
+            <h2 className="text-3xl font-bold mb-4 relative inline-block border-b-4 border-blue-500 pb-1">
+                Skills
+            </h2>
+            <div ref={sectionRef} className='p-4' >
 
                 <div className="grid gap-8
                   grid-cols-1 

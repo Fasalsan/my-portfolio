@@ -24,7 +24,7 @@ export default function Contact() {
                                 >
                                     <HiOutlineMapPin />
                                 </span>
-                                <div>
+                                <div className="text-black">
                                     <h4 className="font-bold">Address</h4>
                                     <p>Chroy Changvar, Phnom penh</p>
                                 </div>
@@ -36,7 +36,7 @@ export default function Contact() {
                                 <span
                                     className="text-[#149ddd] text-2xl bg-[#bfebff] p-2 rounded-full group-hover:text-white group-hover:bg-[#166c94]  Ztransition-colors duration-300 ease-in-out"
                                 ><FiPhone /></span>
-                                <div>
+                                <div className="text-black">
                                     <h4 className="font-bold">Call Us</h4>
                                     <p>+855 81 567 015</p>
                                 </div>
@@ -49,7 +49,7 @@ export default function Contact() {
                                     className="text-[#149ddd] text-2xl bg-[#bfebff] p-2 rounded-full group-hover:text-white group-hover:bg-[#166c94]  Ztransition-colors duration-300 ease-in-out" >
                                     <GoMail />
                                 </span>
-                                <div>
+                                <div className="text-black">
                                     <h4 className="font-bold">Email Us</h4>
                                     <p>sanfasal70@gmail.com</p>
                                 </div>

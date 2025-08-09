@@ -9,7 +9,7 @@ export default function Contact() {
         <section className="bg-white py-12 px-6">
             <div className="max-w-6xl mx-auto w-full">
                 {/* Title */}
-                <h2 className="text-3xl font-bold mb-4 relative inline-block border-b-4 border-blue-500 pb-1">Contact</h2>
+                <h2 className="text-3xl text-black font-bold mb-4 relative inline-block border-b-4 border-blue-500 pb-1">Contact</h2>
                 <p className="text-gray-600 mb-10">
                     Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
                 </p>

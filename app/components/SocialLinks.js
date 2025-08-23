@@ -22,7 +22,7 @@ export const socialLinks = [
     },
     {
         icon: FaTelegram,
-        url: 'https://t.me/yourusername',
+        url: 'https://t.me/fasal_san',
     },
     {
         icon: FaLinkedinIn,

@@ -19,7 +19,6 @@ export default function Home() {
         {/* Overlay */}
         <div className="absolute inset-0 bg-black opacity-50"></div>
 
-        {/* Text container */}
         <div className="relative z-10 text-center px-4">
           <h1 className="text-white text-5xl md:text-7xl font-extrabold mb-4 animate-fadeInDown">
             Welcome to My Portfolio

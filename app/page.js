@@ -4,6 +4,10 @@ import A from '../public/images/img-bg.jpg'
 import NewData from './services/page'
 
 export default function Home() {
+    const handleRedirect = () => {
+    // Replace with your telegram link
+    window.location.href = "https://t.me/fasal_san";
+  };
   return (
     <div>
       <div className="relative w-full h-screen flex flex-col items-center justify-center">
@@ -26,8 +30,14 @@ export default function Home() {
           <p className="text-white text-xl md:text-2xl animate-fadeInUp delay-500">
             Building beautiful web experiences.
           </p>
-        </div>
+        <button
+          onClick={handleRedirect}
+          className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-4 py-2 rounded-lg shadow-md transition-all duration-300"
+        >
+          Open Telegram
+        </button>
       </div>
+        </div>
       <div>
         <NewData />
       </div>
